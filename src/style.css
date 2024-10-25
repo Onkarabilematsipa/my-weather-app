@@ -71,3 +71,10 @@ p{
 .humidity-value, .wind-value{
     color: rgb(38, 190, 190);
 }
+hr{
+    margin-top: 30px;
+    background-color:  #f5f6fd;
+    border: none;
+    height: 1px;
+    
+}
