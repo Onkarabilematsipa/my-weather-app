@@ -56,3 +56,13 @@ footer{
     font-weight: 20;
     color: #b3b4be;
 }
+.weather-app-content{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    margin: 0;
+}
+.current-weather-emoji, .current-weather{
+    font-size: 90px;
+}
