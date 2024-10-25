@@ -1,7 +1,7 @@
 
   
 body{
-    background:#e7eaf6;
+    background:#f5f6fd;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: italic;
@@ -13,4 +13,31 @@ body{
     padding: 30px;
     box-shadow: 8px 10px 16px rgba(3, 3, 3, 0.2);
     border-radius: 10px;
+}
+
+.search-form-input{
+    background: #f5f6fd;
+    border: none;
+    width: 80%;
+    
+}
+.search-form-input, .search-form-button{
+    border-radius: 10px;
+    padding:16px;
+    font-size: larger;
+}
+.search-form-button{
+    width: 100px;
+    background-color: rgb(197, 48, 202);
+    border: none;
+    color: white;
+    
+}
+.search-form-button:hover{
+    cursor: pointer;
+    background-color: rgba(197, 48, 202, 0.596);
+    transition: ease-in-out 140ms;
+}
+a{
+    color: rgb(197, 48, 202);
 }
