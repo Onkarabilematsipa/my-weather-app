@@ -34,10 +34,25 @@ body{
     
 }
 .search-form-button:hover{
-    cursor: pointer;
+    
     background-color: rgba(197, 48, 202, 0.596);
-    transition: ease-in-out 140ms;
+    
 }
 a{
     color: rgb(197, 48, 202);
+    text-decoration: none;
+}
+a:hover{
+    color:rgba(197, 48, 202, 0.596)
+}
+a:hover, .search-form-button:hover{
+    cursor: pointer;
+    transition: ease-in-out 140ms;
+}
+
+footer{
+    font-size: 14px;
+    padding: 30px 0 0 0;
+    font-weight: 20;
+    color: #b3b4be;
 }
