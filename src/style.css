@@ -65,8 +65,10 @@ p{
 .current-weather-emoji, .current-weather{
     font-size: 90px;
 }
+
 .humidity-wind{
     color: #46464b77;
+    
 }
 .humidity-value, .wind-value{
     color: rgb(38, 190, 190);
@@ -77,4 +79,10 @@ hr{
     border: none;
     height: 1px;
     
+}
+h1{
+    margin-bottom: 0px;
+}
+.current{
+    margin-top: 30px;
 }
