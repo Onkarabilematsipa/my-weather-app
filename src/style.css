@@ -53,7 +53,6 @@ a:hover, .search-form-button:hover{
 footer{
     font-size: 14px;
     padding: 30px 0 0 0;
-    font-weight: 20;
     color: #b3b4be;
 }
 .weather-app-content{
@@ -65,4 +64,10 @@ p{
 }
 .current-weather-emoji, .current-weather{
     font-size: 90px;
+}
+.humidity-wind{
+    color: #46464b77;
+}
+.humidity-value, .wind-value{
+    color: rgb(38, 190, 190);
 }
